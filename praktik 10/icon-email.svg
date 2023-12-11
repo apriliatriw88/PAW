@@ -1,0 +1,5 @@
+function validateLogin (e){
+    e.preventDefault();
+
+    if (pass)
+}
