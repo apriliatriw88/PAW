@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&family=Poppins:wght@700&display=swap');
+
+h1{
+    color: aquamarine;
+}
+
+/* form{
+    width: 60%;
+    padding: 15x;
+    color: aliceblue;
+    border: 1px solid black;
+    border-radius: 5px;
+} */
+
+form input{
+    width: 60%;
+    padding: 20x;
+    color: aliceblue;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+form button{
+    border: px solid black;
+    border-radius: 5px;
+}
