@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+html {
+  font-family: 'Inter', sans-serif;
+}
+
+.container {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 16px;
+
+}
+
+h3 {
+  margin: 0;
+  line-height: 1.5;
+}
+
+.colors {
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  bottom: 0px;
+  border-radius: 8px;
+  width: 272px;
+  
+}
+
+.color {
+    display: grid;
+    /* gap: 16px; */
+    grid-gap: 16px;
+    /* margin: 16px 0; */
+    margin-top: 5vh;
+    border: 1px solid #999;
+    border-radius: 12px;
+    padding: 4px;
+    grid-template-columns: repeat(2,1rf);
+    /* grid-template-columns: auto auto auto; */
+  
+}
+
+.color--primary {
+  background-color: #4338CA;
+  color: white;
+  grid-column: 1/2;
+  gap:20px;
+  height:125px;
+  width:210px;
+  padding: 10px;
+  display: grid;
+  border-radius:8px;
+}
+
+.color--success {
+  background-color: #34D399;
+  grid-column: 2/3;
+  gap:20px;
+  height:125px;
+  width:210px;
+  padding: 10px;
+  display: grid;
+  border-radius:8px;
+}
+
+.color--warning {
+  background-color: #FACC15;
+  grid-column: 1/2;
+  gap:20px;
+  height:125px;
+  width:210px;
+  padding: 10px;
+  display: grid;
+  border-radius:8px;
+}
+
+.color--failed {
+  background-color: #EF4444;
+  color: white;
+  grid-column: 2/3;
+  gap:20px;
+  height:125px;
+  width:210px;
+  padding: 10px;
+  display: grid;
+  border-radius:8px;
+}
+
+.color--neutral {
+  background-color: #E2E8F0;
+  grid-column: 1/2;
+  gap:20px;
+  height:125px;
+  width:210px;
+  padding: 10px;
+  display: grid;
+  border-radius:8px;
+}
+
+.color p {
+  margin: 4px 0;
+  line-height: 1.5;
+}
+
+.color .color__hex {
+  margin-top: auto;
+}
+
+@media screen and (min-width: 640px) {
+    .colors{
+        display:grid;
+        gap: 16px;
+    }
+    
+}
