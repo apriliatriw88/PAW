@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+html {
+  font-family: 'Inter', sans-serif;
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+body {
+    margin: 0;
+    background-color: #FEFEFE;
+}
+
+img {
+    width: 100%;
+    display: block;
+}
+
+h3 {
+    margin: 0;
+}
+
+p {
+    margin-top: 4px;
+}
+
+.container {
+    /* 
+    Tambahkan Properti CSS disini 
+    ...
+    */
+    display: flex;
+    position: absolute;
+    left: 8px;
+    right: 0px;
+    top: 8px;
+    bottom: 0px;
+    border-radius: 8px;
+    width: 100%;  
+    height: 100%;
+}
+
+.destinations {
+    /* 
+    Tambahkan Properti CSS disini 
+    ...
+    */
+    margin-left: 35%;
+    position: absolute;
+    display: block;
+    height: 200px;
+    width: 100%;
+    bottom: 0px;
+    display: inline-block;
+    position: initial;
+    top: 247px;
+    
+}
+
+.destination {
+    /* 
+    Tambahkan Properti CSS disini 
+    ...
+    */
+    position:relative;
+    height: 346px;
+    width: 375px;
+    left: 8px;
+    top: 8px;
+    border-radius: 4px;
+    gap:10px;
+    /* display: flex; */
+    align-items: center;
+    vertical-align: top;
+    
+}
+
+.destination:hover img {
+    transform: rotate(5deg) scale(1.1);
+}
+
+.destination__info {
+    padding: 16px;
+    margin-top: auto;
+    height: 54px;
+    width: 327px;
+    left: 16px;
+    top: 242px;
+    border-radius: nullpx;
+
+}
+
+.destination__description {
+    /* 
+    Tambahkan Properti CSS disini 
+    ...
+    */
+    margin: 0px;
+    text-align: left;
+    direction: ltr;
+    font: 10px sans-serif;
+    padding: 0;
+    
+}
+
+.destination__bg img {
+    position: absolute;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+    transition: all ease-in-out 0.3s;
+}
+
+.destination__gradient {
+    position: absolute;
+    z-index: -1;
+    height: 202px;
+    width: 100%;
+    bottom: 0px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #FFFFFF 50%);
+}
+
+.destination__more {
+    text-decoration: none;
+    font-weight: bold;
+    color: #3680F0;
+}
+
+@media screen and (min-width: 30em) and (orientation: landscape) {
+    .container {
+        /* 
+        Tambahkan Properti CSS disini 
+        ...
+        */
+        font-size: 10px;
+        /* width: auto; */
+        gap: 100px
+        
+    }
+}
