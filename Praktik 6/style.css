@@ -1,0 +1,14 @@
+.button {
+    position: absolute;
+    bottom : 40px;
+    right : 40px;
+    display: block;
+    border-radius: 50%;
+    background-color: blue;
+    colour : white;
+    padding : 8px;
+    text-decoration: none;
+    align-items: center;
+    gap: 4px;
+}
+
